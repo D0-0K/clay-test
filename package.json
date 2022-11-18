@@ -1,0 +1,56 @@
+{
+  "name": "clay-background",
+  "author": "Dook",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+    "displayName": "clay-background",
+    "uuid": "4bbee27f-cef3-47c1-aaa1-7fdc74f73397",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "ColorNumber"
+    ],
+    "resources": {
+      "media": [{
+  "file": "images/background.png",
+          "memoryFormat": "8Bit",
+          "name": "ROUND",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ],
+          "type": "bitmap"
+        },
+        {
+          "file": "images/backgroundrec.png",
+          "memoryFormat": "8Bit",
+          "name": "RECT",
+          "storageFormat": "png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ],
+          "type": "bitmap"
+        }
+]
+    }
+  }
+}

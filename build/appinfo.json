@@ -1,0 +1,53 @@
+{
+    "targetPlatforms": [
+        "basalt", 
+        "chalk"
+    ], 
+    "displayName": "clay-background", 
+    "name": "clay-background", 
+    "messageKeys": {
+        "ColorNumber": 10000
+    }, 
+    "companyName": "Dook", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [
+        "configurable"
+    ], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "ColorNumber": 10000
+    }, 
+    "longName": "clay-background", 
+    "shortName": "clay-background", 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "resources": {
+        "media": [
+            {
+                "targetPlatforms": [
+                    "basalt", 
+                    "chalk"
+                ], 
+                "name": "ROUND", 
+                "storageFormat": "png", 
+                "file": "images/background.png", 
+                "memoryFormat": "8Bit", 
+                "type": "bitmap"
+            }, 
+            {
+                "targetPlatforms": [
+                    "basalt", 
+                    "chalk"
+                ], 
+                "name": "RECT", 
+                "storageFormat": "png", 
+                "file": "images/backgroundrec.png", 
+                "memoryFormat": "8Bit", 
+                "type": "bitmap"
+            }
+        ]
+    }, 
+    "uuid": "4bbee27f-cef3-47c1-aaa1-7fdc74f73397"
+}
